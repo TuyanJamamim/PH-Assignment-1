@@ -1,0 +1,34 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ nav{
+    display: flex;
+    justify-content: space-around;
+    margin:0px 0px ;
+ }
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.banner-head-box{
+    text-align: center;
+}
+.banner-btn{
+    text-align: center;
+}
+.head{
+   max-width: 1440px;
+   height: 698px;
+   
+   background-image:url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+   
+}
+.banner{
+    margin: 309px 267px 152px 267.5px ;
+}
