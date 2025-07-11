@@ -161,3 +161,43 @@ margin: 92.3px 150px 14px 150px ;
   background-color:#4E47FF ;
   color: azure;
 }
+/* footer */
+.foot{
+    max-width: 1440px;
+    height: 428px;
+    margin: 0 auto;
+}
+.foot-content{
+    width: 531px;
+    height: 221px;
+    margin: 104px 455px 103px 454px;
+}
+.foot-list li{
+    list-style: none;
+     
+}
+.foot-list li a{
+    text-decoration: none;
+     color: #32314f95;
+}
+.foot-list{
+    display: flex;
+    text-align: center;
+    gap: 48px;
+    
+}
+.foot-logo{
+    
+    height: 50px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #2822dd;
+}
+.foot-pera{
+    width: 531px;
+    height:48px;
+    text-align: center;
+    color: #32314f95;
+    font-size: 15px;
+}
