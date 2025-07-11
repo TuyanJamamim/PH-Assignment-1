@@ -114,6 +114,48 @@ nav ul li a{
     height: 121px;
 
 }
+/* feedback  */
+.feedback-box{
+    width: 1120px;
+    height: 342px;
+    margin: 137px 150px 137px 150px;
+}
+.feedback-heading{
+    width: 100%;
+    height: 49px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+.card1{
+   width: 318px;
+   height: 250px; 
+   border-radius: 14px;
+   background-color: #cac9d7;
+   
+}
+
+.star1{
+    margin-top: 20px;
+    margin-top: 20px;
+    display: flex
+    ;
+}
+
+.reviwer  {
+    display: flex;
+    align-items: center;
+}
+.reviwer-image{
+    margin-right: 12px;
+}
+.reviwer-name{
+    
+}
 /* touch */
 .touch{
 display: flex;
