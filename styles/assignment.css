@@ -114,3 +114,50 @@ nav ul li a{
     height: 121px;
 
 }
+/* touch */
+.touch{
+display: flex;
+width: 1140px;
+height: 561px;
+padding: 71px 0px 71px 0px;
+margin: 92.3px 150px 14px 150px ;
+
+}
+.touch-heading{
+    width: 528px;
+    height: 232px;
+    margin: 12px 115px 129px 0px;
+}
+.touch-heading h1{
+    font-weight: bold;
+    font-size: 97px;
+}
+.touch-form{
+    width: 497px;
+    height: 490px;
+}
+
+.touch-form input[type="email"],.touch-form input[type="text"] {
+  width: 433px;
+  height: 30px;
+  padding: 20px 32px 20px 32px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(209, 203, 203);
+}
+.touch-form textarea
+{
+    width: 433px;
+  height: 60px;
+  padding: 20px 32px 20px 32px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(209, 203, 203);
+}
+.touch-form button{
+    width: 497px;
+  height: 62px;
+  padding: 19px 101px 19px 101px;
+  border-radius: 10px;
+  border: 0.5px solid rgb(209, 203, 203);
+  background-color:#4E47FF ;
+  color: azure;
+}
