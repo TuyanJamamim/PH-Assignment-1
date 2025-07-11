@@ -8,7 +8,9 @@
  nav{
     display: flex;
     justify-content: space-around;
-    margin:0px 0px ;
+    margin:0px 150px 0px 150px ;
+    width: 1140px ;
+    height: 151px;
  }
 nav ul li{
     list-style: none;
@@ -30,5 +32,32 @@ nav ul li a{
    
 }
 .banner{
-    margin: 309px 267px 152px 267.5px ;
+    width: 905px;
+    height: 237px;
+    margin: 158px 267.5px 152px 267.5px ;
+}
+.banner-heading{
+    font-size: 65px;
+    font-weight: bold;
+}
+.action {
+    margin:116px 159px 116px 141px ;
+    width: 1140px ;
+    height: 328px;
+}
+
+.action-box1{
+    width: 517px;
+    height: 203px;
+    margin: 62.5px 220px 62.5px 0px ;
+
+}
+.action-box2{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    background-image: url('../B12A01-landing-launchpad/Assets/wc-big.png');
+}
+.action-box{
+    display: flex;
 }
