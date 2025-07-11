@@ -5,19 +5,23 @@
   font-weight: <weight>;
   font-style: normal;
 }
- nav{
+/* header(nav) */
+ .nav-bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin:0px 150px 0px 150px ;
     width: 1140px ;
-    height: 151px;
+    height: 51px;
+    padding: 50px 0px 50px 0px;
  }
+
 nav ul li{
     list-style: none;
 }
 nav ul li a{
     text-decoration: none;
 }
+/* header banner */
 .banner-head-box{
     text-align: center;
 }
@@ -40,10 +44,12 @@ nav ul li a{
     font-size: 65px;
     font-weight: bold;
 }
+/* action */
 .action {
     margin:116px 159px 116px 141px ;
     width: 1140px ;
     height: 328px;
+
 }
 
 .action-box1{
@@ -60,4 +66,51 @@ nav ul li a{
 }
 .action-box{
     display: flex;
+}
+/* productive */
+.productive{
+ width: 980px;
+    height: 206px;
+    background-color: #4d47ff22;
+    margin: 116px 159px 137px 141px;
+    padding: 50px 80px 50px 80px;
+     border-radius: 24px;
+}  
+.productive-box{
+
+   height:206px ;
+   width: 856px;
+  
+   margin: 0px 62px 0px 62px;
+   
+}
+
+.productive-title{
+    width: 856px;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.productive-user{
+    width: 856px;
+    height: 121px;
+    display: flex;
+}
+.productive-info1{
+    width:180px ;
+    height: 121px;
+    margin-right: 158px;
+
+}
+.productive-info2{
+    width:180px ;
+    height: 121px;
+    margin-right: 158px;
+
+}
+.productive-info3{
+    width:180px ;
+    height: 121px;
+
 }
