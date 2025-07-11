@@ -21,7 +21,49 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
 }
+.nav-title{
+    font-size: 34px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.btn-primary{
+    width: 132px;
+    height: 48px;
+    background-color: #332ed8ed;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color:rgb(14, 183, 8) ;
+}
+.btn-second{
+    width: 174px;
+    height: 48px;
+     background-color: #332ed8ed;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+.btn-second:hover{
+    background-color:rgb(14, 183, 8) ;
+}
+.btn:hover{
+     background-color:rgb(14, 183, 8) ;
+}
+
 /* header banner */
+.action-heading{
+font-size: 50px;
+font-weight: bold;
+}
+.action-pera{
+    font-size: 24px;
+    color: #646366;
+}
 .banner-head-box{
     text-align: center;
 }
@@ -132,23 +174,23 @@ nav ul li a{
     gap: 20px;
 }
 .card1{
-   width: 318px;
-   height: 250px; 
+   width: 310px;
+   height: 220px; 
    border-radius: 14px;
    background-color: #cac9d7;
+   padding: 25px 15px 0px 15px;
    
 }
 
 .star1{
-    margin-top: 20px;
-    margin-top: 20px;
-    display: flex
-    ;
+    
+    display: flex;
 }
 
 .reviwer  {
     display: flex;
     align-items: center;
+    margin-top: 35px;
 }
 .reviwer-image{
     margin-right: 12px;
