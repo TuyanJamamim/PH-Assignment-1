@@ -1,4 +1,5 @@
 
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -66,7 +67,7 @@ nav ul li a{
     text-align: center;
 }
 .head{
-   max-width: 1440px;
+   width: 1440px;
    height: 698px;
    
    background-image:url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
@@ -215,6 +216,10 @@ font-weight: bold;
     margin-bottom: 50px;
     
 }
+.feedback-heading h1{
+    font-weight: bold;
+    font-size: 42px;
+}
 .card{
     display: flex;
     gap: 20px;
@@ -223,9 +228,9 @@ font-weight: bold;
    width: 310px;
    height: 220px; 
    border-radius: 14px;
-   background-color: #cac9d7;
-   padding: 25px 15px 0px 15px;
    
+   padding: 25px 15px 0px 25px;
+   background-color: #f1f1f4;
 }
 
 .star1{
@@ -241,8 +246,11 @@ font-weight: bold;
 .reviwer-image{
     margin-right: 12px;
 }
-.reviwer-name{
-    
+.name{
+    color: #646366;
+}
+.date{
+color: #99979d;
 }
 /* touch */
 .touch{
@@ -251,6 +259,7 @@ width: 1140px;
 height: 561px;
 padding: 71px 0px 71px 0px;
 margin: 92.3px 150px 14px 150px ;
+
 
 }
 .touch-heading{
@@ -291,11 +300,15 @@ margin: 92.3px 150px 14px 150px ;
   background-color:#4E47FF ;
   color: azure;
 }
+.touch-form button:hover{
+    background-color:rgb(14, 183, 8) ;
+}
 /* footer */
 .foot{
     max-width: 1440px;
     height: 428px;
     margin: 0 auto;
+    background-color: white;
 }
 .foot-content{
     width: 531px;
@@ -308,7 +321,7 @@ margin: 92.3px 150px 14px 150px ;
 }
 .foot-list li a{
     text-decoration: none;
-     color: #32314f95;
+     color: #03021a95;
 }
 .foot-list{
     display: flex;
@@ -328,6 +341,6 @@ margin: 92.3px 150px 14px 150px ;
     width: 531px;
     height:48px;
     text-align: center;
-    color: #32314f95;
+     color: #03021a95;
     font-size: 15px;
 }
