@@ -259,6 +259,7 @@ width: 1140px;
 height: 561px;
 padding: 71px 0px 71px 0px;
 margin: 92.3px 150px 14px 150px ;
+align-items: center;
 
 
 }
@@ -266,6 +267,7 @@ margin: 92.3px 150px 14px 150px ;
     width: 528px;
     height: 232px;
     margin: 12px 115px 129px 0px;
+    /* align-items: center; */
 }
 .touch-heading h1{
     font-weight: bold;
